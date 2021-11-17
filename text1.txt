@@ -1,0 +1,12 @@
+import os
+import shutil
+source=input("Enter the source folder name")
+destination=input("Enter the destination folder name")
+source=source+'/'
+destination=destination+'/'
+print(destination)
+listoffilesdir=os.listdir(source)
+for file in listoffiles:
+    shutil.copy((source+file),destination)
+
+    
